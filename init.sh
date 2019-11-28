@@ -21,10 +21,10 @@ sh iterm.sh
 # NVM
 sh nvm.sh
 
-read -p 'git user name: ' userName
+read -p "git user name: " userName
 git config --global user.name $userName
 
-read -p 'git email: ' email
+read -p "git email: " email
 git config --global user.email $email
 
 killall Terminal
