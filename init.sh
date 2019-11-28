@@ -21,6 +21,14 @@ sh iterm.sh
 # NVM
 sh nvm.sh
 
+brew install pyenv
+brew install rbenv
+brew install openssl readline sqlite3 xz zlib
+brew tap heroku/brew
+brew install heroku
+
+heroku login
+
 read -p "git user name: " userName
 git config --global user.name $userName
 
