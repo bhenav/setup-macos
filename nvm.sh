@@ -15,4 +15,4 @@ npm i -g rimraf
 npm i -g typeorm
 npm i -g yarn
 npm i -g npm-check-updates
-ng set --global packageManager=yarn
+ng config -g cli.packageManager yarn
