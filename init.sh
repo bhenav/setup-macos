@@ -15,11 +15,11 @@ sh get-docker.sh
 # Appearance
 sh appearance.sh
 
-# Iterm
-sh iterm.sh
-
 # NVM
 sh nvm.sh
+
+# Iterm
+sh iterm.sh
 
 brew install pyenv
 brew install rbenv
