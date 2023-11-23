@@ -7,6 +7,8 @@ brew install --cask google-chrome
 brew install --cask postman
 brew install --cask hugo
 brew install --cask spotify
+brew install --cask visual-studio-code
+brew install --cask flutter
 
 # Docker
 #curl -fsSL https://get.docker.com -o get-docker.sh
