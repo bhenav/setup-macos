@@ -1,5 +1,5 @@
 # Brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Utils
 brew install --cask slack
@@ -7,12 +7,10 @@ brew install --cask google-chrome
 brew install --cask postman
 brew install --cask hugo
 brew install --cask spotify
-brew install --cask visual-studio-code
-brew install --cask flutter
 
 # Docker
-#curl -fsSL https://get.docker.com -o get-docker.sh
-#sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
 
 # Appearance
 sh appearance.sh

@@ -14,5 +14,6 @@ npm i -g http-server
 npm i -g rimraf
 npm i -g typeorm
 npm i -g yarn
+npm i -g pnpm
 npm i -g npm-check-updates
 ng config -g cli.packageManager yarn
