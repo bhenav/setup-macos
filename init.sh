@@ -2,11 +2,13 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Utils
+brew install git
 brew install --cask slack
 brew install --cask google-chrome
 brew install --cask postman
 brew install --cask hugo
 brew install --cask spotify
+brew install --cask docker
 
 # Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
