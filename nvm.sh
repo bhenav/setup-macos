@@ -16,4 +16,4 @@ npm i -g typeorm
 npm i -g yarn
 npm i -g pnpm
 npm i -g npm-check-updates
-ng config -g cli.packageManager yarn
+ng config -g cli.packageManager pnpm
